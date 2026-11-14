@@ -1,0 +1,7 @@
+aiohttp>=3.9
+beautifulsoup4>=4.12
+lxml>=5.1
+pandas>=2.1
+requests>=2.31
+gspread>=6.0
+google-auth>=2.28

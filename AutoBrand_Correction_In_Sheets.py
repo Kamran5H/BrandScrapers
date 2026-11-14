@@ -9,8 +9,10 @@ from bs4 import BeautifulSoup
 import gspread
 from google.oauth2.service_account import Credentials
 
+import os
+
 # --- SETTINGS ---
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1eCGzCVMhrNXlblHYSR5MUf_Ik7Zz2IwHBNe7HikfuSs/edit#gid=0"
+SHEET_URL = os.environ.get("BRANDSCRAPERS_SHEET_URL", "")
 CONCURRENT_REQUESTS = 10 
 RETRIES = 5               
 

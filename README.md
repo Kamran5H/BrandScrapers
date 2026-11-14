@@ -64,11 +64,8 @@ flowchart TD
 | `kamran_brand_architect_5_2x.py` | Optimized iteration featuring accelerated async request pipelines and refined heuristics. |
 | `ASIN_BRAND_Gem3.py` | Focused micro-worker for high-precision ASIN-to-Brand resolution. |
 | `AutoBrand_Correction_In_Sheets.py` | Google Sheets API automation for live spreadsheet validation and brand normalization. |
-| `KE.py` | Keepa API interface for historical product velocity, sales ranks, and pricing trends. |
 | `MDST.py` | Multi-domain scraping utility handling foreign Amazon regional marketplaces. |
 | `MergeCSVs.py` | Post-processing ETL script for consolidating and deduplicating batch CSV outputs. |
-| `Scrapper More Advanced.py` | Advanced experimental scraper testing novel DOM traversal strategies. |
-| `block.py` | IP ban & CAPTCHA detection sentinel ensuring worker health. |
 
 ---
 
@@ -80,10 +77,10 @@ BrandScrapers/
 ├── kamran_brand_architect_5_2x.py     # High-speed optimized scraping variant
 ├── ASIN_BRAND_Gem3.py                 # Precision ASIN brand parser
 ├── AutoBrand_Correction_In_Sheets.py  # Google Sheets sync & correction worker
-├── KE.py                              # Keepa API integration client
 ├── MDST.py                            # Multi-domain marketplace reader
 ├── MergeCSVs.py                       # Batch CSV aggregator & cleaner
-├── block.py                           # Anti-bot and block detection handler
+├── tests/                             # Unit tests for brand normalization & parsing
+├── requirements.txt                   # Runtime Python dependencies
 ├── .gitignore                         # Data file & credential exclusions
 └── LICENSE                            # Open-source MIT License
 ```
@@ -138,7 +135,7 @@ Copyright (c) 2024-2026 **Kamran Ashraf**.
 *AI Systems Architect • Computational Physical Chemist • Automation Pioneer*
 
 [![Developer Profile](https://img.shields.io/badge/GitHub-Kamran5H-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Kamran5H)
-[![Developer Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-00F2FE?style=flat-square&logo=vercel&logoColor=black)](https://kamran5h.github.io/Portfolio/)
+[![Developer Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-00F2FE?style=flat-square&logo=vercel&logoColor=black)](https://kamranashraf.is-a.dev)
 [![Contact Email](https://img.shields.io/badge/Email-chkamran32b%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:chkamran32b@gmail.com)
 
 </div>
