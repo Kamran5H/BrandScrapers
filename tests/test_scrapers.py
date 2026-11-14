@@ -1,4 +1,11 @@
+import sys
 import unittest
+from unittest.mock import MagicMock
+
+for mod in ("aiohttp", "bs4", "gspread", "google", "google.oauth2", "google.oauth2.service_account"):
+    if mod not in sys.modules:
+        sys.modules[mod] = MagicMock()
+
 from AutoBrand_Correction_In_Sheets import clean_brand_name
 
 
